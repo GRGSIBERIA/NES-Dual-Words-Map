@@ -3,11 +3,11 @@ NES-Dual-Words-Map
 
 This repository puts NES sprites for NES programmer. Dual Words is a sprite map including 2 words in each sprite. The functions are enabled by utilizing 2 plattes in each sprite.
 
-NES�p��1�̃X�v���C�g�ɂ�2�̃p���b�g���g���ĕ����̕��������ꂽ.chr�t�@�C����z�z���Ă��܂��D
-�p���L���Ђ炪�ȃJ�^�J�i�͑S����FF�����킠��܂��D
-�����1�̃X�v���C�g�ɂ��C1�̃p���b�g���g���̂͗e�ʂ̖��ʂȂ̂ŁC
-1�̃X�v���C�g�ɂ��C2�̃p���b�g�𗘗p���邱�Ƃŗe�ʂ𔼕����x�ɗ}���Ă��܂��D
+NES用の1つのスプライトにつき2つのパレットを使って複数の文字列を入れた.chrファイルを配布しています．
+英数記号ひらがなカタカナは全部でFF文字種あります．
+これを1つのスプライトにつき，1つのパレットを使うのは容量の無駄なので，
+1つのスプライトにつき，2つのパレットを利用することで容量を半分程度に抑えています．
 
-## �Z�p�I�ȊT�v
-�t�@�~�R���̓X�v���C�g�̃h�b�g��\������̂�2�r�b�g�̒l���g���Ă��܂��D
-���̒l���p���b�g�̒��łǂ̐F���g���̂��w�肵�Ă��܂��D
+## 技術的な概要
+ファミコンはスプライトのドットを表現するのに2ビットの値が使われています．
+この値がパレットの中でどの色を使うのか指定しています．
